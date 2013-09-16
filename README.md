@@ -45,6 +45,7 @@ For the main favicon itself, it's best for cross-browser compatibility not to us
    
  2. IE 10 Metro tile icon (Metro equivalent of apple-touch-icon):
 ```
+
 <meta name="msapplication-TileColor" content="#FFFFFF">  
 <meta name="msapplication-TileImage" content="/path/to/favicon-144.png">
 ```
