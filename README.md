@@ -53,18 +53,23 @@ For the main favicon itself, it's best for cross-browser compatibility not to us
 
  3. Largest to smallest apple-touch-icons [3][3] : 
 
-```<!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/path/to/favicon-152.png">
-    <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/path/to/favicon-144.png">
-    <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/path/to/favicon-120.png">
-    <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/path/to/favicon-114.png">
-    <!-- For first- and second-generation iPad: -->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/path/to/favicon-72.png">
-    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-    <link rel="apple-touch-icon-precomposed" href="/path/to/favicon-57.png">```
+```<!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->  
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/path/to/favicon-152.png">  
+    
+    <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->  
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/path/to/favicon-144.png">  
+    
+    <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->  
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/path/to/favicon-120.png">  
+    
+    <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->  
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/path/to/favicon-114.png">  
+    
+    <!-- For first- and second-generation iPad: -->  
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/path/to/favicon-72.png">  
+    
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->  
+    <link rel="apple-touch-icon-precomposed" href="/path/to/favicon-57.png">  ```
 
 4. Favicons targeted to any additional png sizes that you add that aren't covered above:
     
