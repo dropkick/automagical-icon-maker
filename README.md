@@ -48,6 +48,7 @@ For the main favicon itself, it's best for cross-browser compatibility not to us
 <meta name="msapplication-TileColor" content="#FFFFFF">  
 <meta name="msapplication-TileImage" content="/path/to/favicon-144.png">
 ```
+
 Replace #FFFFFF with your desired tile color.
 
 
