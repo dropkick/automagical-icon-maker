@@ -24,7 +24,7 @@ I'm leveraging the [Generator](http://blogs.adobe.com/photoshopdotcom/2013/09/in
 
 Select `File > Generate > Image Assets`. Your images should now be now available in a folder named `automagical-icon-maker-assets`. 
 
-This uses the Generator functionality built into Photoshop 14.1 and up. With this enabled, new icon files are automatically created any time you make additional changes to the artwork. Neat!
+*This uses the Generator functionality built into Photoshop 14.1 and up. With this enabled, new icon files are automatically created any time you make additional changes to the artwork. Neat!*
 
 Note: You can still just export the image files with Save for Web..., slices have already been defined.
 
@@ -38,23 +38,20 @@ We already have our 32 x 32 and 16 x 16 png files. Use the tool of your choice t
 
 These are selected portions taken from Audrey Roy‘s [Favicon Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet) that pertain to the image sizes we‘re generating. I decided to only go medium-crazy with the sizes I've included. Audrey is going for obsessively exhaustive. *Bravo, Audrey!* (You should check that sucker out, regardless. Good stuff there.)
 
-For the main favicon itself, it's best for cross-browser compatibility not to use any HTML. Just name the file favicon.ico and place it in the root of your domain.[1][2]
+For the main favicon itself, it's best for cross-browser compatibility not to use any HTML. Just name the file favicon.ico and place it in the root of your domain.[1][1][2][2]
 
  1. Touch icon for iOS 2.0+ and Android 2.1+:
 `<link rel="apple-touch-icon-precomposed" href="path/to/favicon-152.png">`
    
  2. IE 10 Metro tile icon (Metro equivalent of apple-touch-icon):
-
 ```
 <meta name="msapplication-TileColor" content="#FFFFFF">  
 <meta name="msapplication-TileImage" content="/path/to/favicon-144.png">
 ```
-
 Replace #FFFFFF with your desired tile color.
 
 
-3. Largest to smallest apple-touch-icons [3] :
-
+3. Largest to smallest apple-touch-icons [3][3] :
 ```
 <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/path/to/favicon-152.png">
@@ -80,28 +77,23 @@ Replace #FFFFFF with your desired tile color.
 
 ## The Images
 
-```
 ============= =============== =======================================================================
 Sizes         Name            Purpose
 ============= =============== =======================================================================
 16x16 & 32x32 favicon.ico     Default required by IE. Chrome and Safari may pick ico over png, sadly.
 ============= =============== =======================================================================
-```
 
-More about favicon.ico below. Yes, it's 1 file with multiple sizes.
+More about favicon.ico below. Yes, it‘s one file with multiple sizes.
 
-```
 ======= =============== =======================================================================
 Size    Name            Purpose
 ======= =============== =======================================================================
 152x152 favicon-152.png General use iOS/Android icon, auto-downscaled by devices.
 ======= =============== =======================================================================
-```
 
 But keep in mind that icons with complex detail often don't downscale well.
 Often you have to tweak subtle design details for smaller sizes.
 
-```
 ======= =============== =======================================================================
 Size    Name            Purpose
 ======= =============== =======================================================================
@@ -112,24 +104,20 @@ Size    Name            Purpose
 144x144 favicon-144.png IE10 Metro tile for pinned site
 152x152 favicon-152.png iPad retina touch icon (Change for iOS 7: up from 144x144)
 ======= =============== =======================================================================
-```
 
 ## ICO File
 
 An .ico file is a container for multiple .bmp or .png icons of different sizes.
 In favicon.ico, create at least these:
 
-```
 ======= =======================================================================
 Size    Purpose
 ======= =======================================================================
 16x16   IE9 address bar, Pinned site Jump List/Toolbar/Overlay
 32x32   New tab page in IE, taskbar button in Win 7+, Safari Read Later sidebar
 ======= =======================================================================
-```
 
 Create your .ico out of optimized .png files.
-
 
 ## References
 
