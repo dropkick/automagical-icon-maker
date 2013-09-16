@@ -48,11 +48,13 @@ For the main favicon itself, it's best for cross-browser compatibility not to us
 <meta name="msapplication-TileColor" content="#FFFFFF">  
 <meta name="msapplication-TileImage" content="/path/to/favicon-144.png">
 ```
-Replace #FFFFFF with your desired tile color. 
+
+    Replace #FFFFFF with your desired tile color. 
 
 3. Largest to smallest apple-touch-icons [[3]][3] :
 
   ```
+
 <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/path/to/favicon-152.png">
 
