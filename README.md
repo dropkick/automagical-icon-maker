@@ -38,7 +38,7 @@ We already have our 32 x 32 and 16 x 16 png files. Use the tool of your choice t
 
 These are selected portions taken from Audrey Roy‘s [Favicon Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet) that pertain to the image sizes we‘re generating. I decided to only go medium-crazy with the sizes I've included. Audrey is going for obsessively exhaustive. *Bravo, Audrey!* (You should check that sucker out, regardless. Good stuff there.)
 
-For the main favicon itself, it's best for cross-browser compatibility not to use any HTML. Just name the file favicon.ico and place it in the root of your domain.[1][1][2][2]
+For the main favicon itself, it's best for cross-browser compatibility not to use any HTML. Just name the file favicon.ico and place it in the root of your domain.[[1]][1][[2]][2]
 
  1. Touch icon for iOS 2.0+ and Android 2.1+:
 `<link rel="apple-touch-icon-precomposed" href="path/to/favicon-152.png">`
@@ -48,11 +48,11 @@ For the main favicon itself, it's best for cross-browser compatibility not to us
 <meta name="msapplication-TileColor" content="#FFFFFF">  
 <meta name="msapplication-TileImage" content="/path/to/favicon-144.png">
 ```
-Replace #FFFFFF with your desired tile color.
+Replace #FFFFFF with your desired tile color. 
 
+3. Largest to smallest apple-touch-icons [[3]][3] :
 
-3. Largest to smallest apple-touch-icons [3][3] :
-```
+  ```
 <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/path/to/favicon-152.png">
 
